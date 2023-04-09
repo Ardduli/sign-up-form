@@ -8,9 +8,9 @@ body{
     box-sizing: border-box;
     background: repeating-linear-gradient(
     45deg,
-    #36454F 0px,
+    #36454f 0px,
     #36454F 2px,
-    #7393B3 2px,
+    #7393b3 2px,
     #7393B3 4px
   );
   height: 100vh;
@@ -55,5 +55,22 @@ body{
 }
 
 div>img{
-    max-height: 6rem;
+    max-height: 7rem;
+}
+
+#form{
+    padding: 0 8rem 0 2rem;
+}
+
+input,label {
+    display: block;
+}
+
+.names, .emailphone, .passwordcontain{
+    display: flex;
+    gap: 2rem;
+}
+
+input{
+    size: 3rem;
 }
